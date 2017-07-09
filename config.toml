@@ -1,0 +1,7 @@
+baseURL = "http://www.freesurfing.net/"
+languageCode = "en-us"
+title = "Do something interesting"
+
+[Params]
+  Author = "Qi Jia"
+  disqusShortname = "tdisqu"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Do something interesting</title>
+    <link>http://www.freesurfing.net/post/</link>
+    <description>Recent content in Posts on Do something interesting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Jul 2017 20:01:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.freesurfing.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>good to great</title>
+      <link>http://www.freesurfing.net/post/good-to-great/</link>
+      <pubDate>Sun, 09 Jul 2017 20:01:29 +0800</pubDate>
+      
+      <guid>http://www.freesurfing.net/post/good-to-great/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

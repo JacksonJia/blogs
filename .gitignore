@@ -1,0 +1,10 @@
+# CreEated by .ignore support plugin (hsz.mobi)
+
+# Gogland
+.idea
+
+#themes
+themes
+
+# vim
+.swp
