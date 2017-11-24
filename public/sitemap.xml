@@ -3,12 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.freesurfing.net/</loc>
-    <priority>0</priority>
+    <loc>http://www.freesurfing.net/2017/11/shadowsocks%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2017-11-24T23:34:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.freesurfing.net/posts/2017/11/shadowsocks/</loc>
+    <loc>http://www.freesurfing.net/</loc>
+    <lastmod>2017-11-24T23:34:18+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -17,7 +19,8 @@
   </url>
   
   <url>
-    <loc>http://www.freesurfing.net/posts/</loc>
+    <loc>http://www.freesurfing.net/post/</loc>
+    <lastmod>2017-11-24T23:34:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   

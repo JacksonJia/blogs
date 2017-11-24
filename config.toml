@@ -2,8 +2,6 @@ baseURL = "http://www.freesurfing.net/"
 languageCode = "zh-cn"
 defaultContentLanguage = "en-us"
 
-
-
 title = ""
 theme = "journal"
 [permalinks]
