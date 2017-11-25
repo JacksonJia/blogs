@@ -3,7 +3,6 @@
 #install:
 #    go get -v github.com/gohugoio/hugo
 
-#pub:
-#    pass
+build:
+    hugo -s .
 
-#draft:
