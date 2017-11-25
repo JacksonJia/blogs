@@ -2,7 +2,7 @@ baseURL = "http://www.freesurfing.net/"
 languageCode = "zh-cn"
 defaultContentLanguage = "en-us"
 
-title = ""
+title = "自由小站"
 theme = "journal"
 [permalinks]
   post = "/:year/:month/:title/"
