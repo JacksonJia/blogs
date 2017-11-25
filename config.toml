@@ -15,7 +15,7 @@ theme = "journal"
   description = "Blog meta description."
   githubUsername = "JacksonJia"
   tagline = ""
-[params.work]
-  jobTitle = "occupation"
-  company = "LingmiaoTech"
-  companyUrl = "http://www.echocloud.com/"
+#[params.work]
+#  jobTitle = "occupation"
+#  company = "LingmiaoTech"
+#  companyUrl = "http://www.echocloud.com/"

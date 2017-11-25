@@ -17,7 +17,18 @@
       <pubDate>Fri, 24 Nov 2017 23:34:18 +0800</pubDate>
       
       <guid>http://www.freesurfing.net/2017/11/shadowsocks%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
-      <description>使用shadowsocks科学上网</description>
+      <description>shadowsocks是什么 shadowsocks是一款基于socks5的代理，在国内被广泛用于科学上网
+准备工作 要使用shadowsocks科学上网，首先你得有一台位于墙外边的服务器，这里推荐搬瓦工的 VPS，由于搬瓦工已经被墙，上不去的同学可以访问国内官方地址。关于购买以及其他事宜，以后我会专门写一篇来介绍
+shadowsocks服务器端配置 第一步: 先安装 shadowsocks
+pip install shadowsocks  第二步: 生成/etc/shadowsocks.json内容如下
+{ &amp;quot;server&amp;quot;:&amp;quot;my_server_ip&amp;quot;, &amp;quot;server_port&amp;quot;:8388, &amp;quot;password&amp;quot;:&amp;quot;barfoo!&amp;quot;, &amp;quot;timeout&amp;quot;:600, &amp;quot;method&amp;quot;:&amp;quot;aes-256-cfb&amp;quot; }  每个字段的含义：
+ server: 主机的ip server_port: shadowsocks监听的端口 password: 用于加密的密码 timeout: 连接过期时间 method: 加密算法，加密算法建议先用 aes-256-cfb，想更换加密算法的可以参考官网  第三步：启动
+ssserver -c /etc/shadowsocks.json start  shadowsocks服务器端起来之后，可以先用客户端连接下，看一看是否已经可以科学上网，确认无误后，进行下一步
+第四部：设置开机自启
+使用systemd来管理，添加 /etc/systemd/system/shadowsocks.service内容如下
+[Unit] Description=Shadowsocks Server After=network.target [Service] Type=simple User=root ExecStart=/usr/local/bin/ssserver -c /etc/shadowsocks.json [Install] WantedBy=multi-user.target  注意把 /usr/local/bin/ssserver替换成你系统中ssserver的绝对路径
+最后:
+sudo systemctl enable /etc/systemd/system/shadowsocks.service  以上就是 shadowsocks 的服务器端配置</description>
     </item>
     
   </channel>
