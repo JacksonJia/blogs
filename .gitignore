@@ -1,7 +1,8 @@
-# CreEated by .ignore support plugin (hsz.mobi)
-
 # Gogland
 .idea
 
 # vim
 .swp
+
+# public
+public/
