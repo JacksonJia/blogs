@@ -1,21 +1,20 @@
-baseURL = "http://www.freesurfing.net/"
+baseURL = "http://www.kuafu.me/"
 languageCode = "zh-cn"
 defaultContentLanguage = "en-us"
 
 title = "自由小站"
-theme = "journal"
+theme = "hugo-journal"
+
 [permalinks]
   post = "/:year/:month/:title/"
 
-[author]
-  name = "Jackson Jia"
-  homepage = "http://www.freesurfing.net/"
-
 [params]
-  description = "Blog meta description."
+  description = "记录点滴生活."
   githubUsername = "JacksonJia"
-  tagline = ""
-#[params.work]
-#  jobTitle = "occupation"
-#  company = "LingmiaoTech"
-#  companyUrl = "http://www.echocloud.com/"
+  # twitterUsername = "your_twitter_handle"
+  tagline = "与日逐走"
+
+[author]
+  # name = "kuafu"
+  homepage = "http://www.kuafu.me/"
+
